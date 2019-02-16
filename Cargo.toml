@@ -1,7 +1,7 @@
 [package]
 name = "xrdb"
 description = "A very rudimentary library to access xrdb values from Rust"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Tim Alberdingk Thijm <tim.thijm@gmail.com>"]
 edition = "2018"
 license = "MIT"
