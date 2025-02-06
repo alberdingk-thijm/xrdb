@@ -32,11 +32,6 @@ impl Deref for XDisplay {
         &self.0
     }
 }
-impl DerefMut for XDisplay {
-    fn deref_mut(&mut self) -> &mut Self::Target {
-        &mut self.0
-    }
-}
 impl Drop for XDisplay {
     fn drop(&mut self) {
         unsafe {
